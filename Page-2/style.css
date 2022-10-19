@@ -1,0 +1,188 @@
+.container1{
+    width: 100%;
+    height: 94px;
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+    box-shadow: 2px 3px 12px 5px #eeeeee;
+    display: flex;
+}
+
+body{
+    background-color: #F7F7F7;
+}
+
+*{
+    padding: 0%;
+    margin:0%
+}
+#list{
+    color: #00A5EC;
+    
+}
+#tasks{
+    color: #424242;
+    
+}
+#tasks, #list{
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    left:137px;
+    margin-top: 23px;
+    margin-bottom: 22px;    
+}
+
+/* fa circel and add new task */
+
+.container-circle{
+    position: relative;
+    top: 50px;
+    left: 1027px;
+    height: 18px;
+    display:flex;
+    column-gap: 8px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.addtask{
+    color: #424242;
+    font-size: 50px;
+    font-weight: 500;
+}
+.container-circleh{
+    width: 100%;
+    height: 100px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 25px ;
+    row-gap: 20px;
+    width: 1200px;
+    justify-content: flex-start;
+}
+
+.card1, .card2, .card3, .card4, .card5 {
+    position: relative;
+    width: 352px;
+    height: 360px;
+    background-color: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-shadow: 2px 2px 2px 1px #EDEDED, -2px -2px 2px 1px #EDEDED;
+    left: 139px;
+    
+}
+
+.cardheader{
+    border-bottom: 1px solid #EDEDED;
+    padding: 20px;
+    font-size: 20px;
+    color: #00A5EC;
+    top: 34;
+    left: 30;
+}
+
+.cardbody{
+    display: flex;
+    left:30px;
+    flex-direction: column;
+    align-items: start;
+}
+.firsttask{
+    position: relative;
+    left:30px;
+    text-align: center;
+    top:10px;
+    display: flex;
+    align-items: center;
+    
+}
+.strike{
+    color: #C2C2C2;
+    text-decoration: line-through 2px #C2C2C2;
+}
+.secondtask{
+    position: relative;
+    color: #424242;
+    left:33px;
+    top:20px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.blur{
+    filter:blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.pop-up{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #67676729;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    position: absolute;
+    top: 184px;
+    left: 433px;
+    width: 500px;
+    height: 250px;
+}
+
+.pheading{
+    position: relative;
+    height: 66px;
+    border-bottom: 1.5px solid #EDEDED;
+    
+}
+#padd{
+    position: relative;
+    top: 20px;
+    left:20px;
+    text-align: left;
+    font: normal normal medium 22px/26px Inter;
+    color: #404040;
+    font-size: 22px;
+}
+#pclose
+{
+    position: relative;
+    top: 27px;
+    text-align: right;
+    left:65%;
+}
+.textbox{
+    position: relative;
+    top: 20px;
+    left:20px;
+    right: 20px;
+    width: 80%;
+    width: 460px;
+    height: 40px;
+    background-color: #F7F7F7;
+    border: 1px solid #EDEDED;
+}
+
+#text{
+    position: relative;
+    top: 10px;
+    left: 14px;
+    color: #858585;
+    font-size: 16px;
+    font: normal normal normal 16px/20px Inter;
+    
+}
+
+.btn{
+    position: absolute;
+    width: 175px;
+    height: 45px;
+    top: 153px;
+    font-size: 18px;
+    right: 20px;
+    border: 0px solid;
+    border-radius: 5px ;
+    background-color: #00A5EC;
+    color: #FFFFFF;
+}
