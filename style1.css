@@ -1,5 +1,5 @@
 .container1{
-    width: 100%;
+    width: 1366px;
     height: 94px;
     background-color: #ffffff;
     border: 0px solid #ffffff;
@@ -111,4 +111,10 @@ body{
     display: flex;
     align-items: center;
    
+}
+
+.nav{
+    position: absolute;
+    top: 650px;
+    left: 1020px;
 }

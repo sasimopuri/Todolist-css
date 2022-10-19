@@ -125,3 +125,9 @@ body{
     align-items: center;
    
 }
+
+.nav{
+    position: absolute;
+    top: 650px;
+    left: 1020px;
+}
